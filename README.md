@@ -1,2 +1,2 @@
-# trade.github.io
-FODUBU Ecosystem Token "F" Documentation for (FODUBU Mall , SETRA Eco, TRACO Agri
+# fodubu.github.io
+FODUBU Ecosystem static pages for Token "F" Documentation for (FODUBU Mall , SETRA Eco, TRACO Agri
