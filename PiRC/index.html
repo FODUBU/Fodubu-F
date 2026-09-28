@@ -3,35 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FODUBU Ecosystem | Official Portal</title>
+    <title>FODUBU Testnet | Validator Dashboard</title>
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <header>
-        <h1>FODUBU Ecosystem</h1>
-        <p>Unified Web3 commerce infrastructure powering Global Trade, Eco-Solutions, and Agriculture.</p>
+        <nav>
+            <a href="https://www.fodubu.com" target="_blank">&larr; Visit Live Mainnet Portal</a>
+        </nav>
+        <h1 style="margin-top: 1rem;">FODUBU Testnet Environment</h1>
+        <p>Developer dashboard, validator node configurations, and network compliance metadata for the F Token.</p>
     </header>
 
     <main>
         <section class="card">
-            <h2>Ecosystem Reward Token (F)</h2>
-            <p>The <strong>F Token</strong> serves as the official incentive and reward currency across the FODUBU Mall, SETRA Eco, and Traco Agri platforms.</p>
-            <a href="./fecstm_token/index.html" class="btn">View Token Documentation &amp; Specs &rarr;</a>
+            <h2>⚠️ Network Status: TESTNET</h2>
+            <p>This repository serves exclusively as the testing and validator synchronization environment for the FODUBU Ecosystem. <strong>Do not use these endpoints for live commercial transactions.</strong></p>
+            <ul>
+                <li><strong>Federation Server:</strong> <code>https://api.testnet.minepi.com</code></li>
+                <li><strong>Network Passphrase:</strong> <code>Pi Testnet</code></li>
+                <li><strong>Protocol Target:</strong> <code>wasm32v1-none</code> (Protocol 27 compatible)</li>
+            </ul>
         </section>
 
         <section class="card" style="margin-top: 2rem;">
-            <h2>Integrated Platforms</h2>
+            <h2>Network Metadata (PiRC-101 / SEP-0001)</h2>
+            <p>Our testnet compliance metadata is publicly available for network indexers to parse issuer accounts and token limits.</p>
+            <a href="./.well-known/pi.toml" target="_blank" class="btn">View Testnet pi.toml</a>
+            <a href="./.well-known/stellar.toml" target="_blank" class="btn" style="background-color: #374151; margin-left: 10px;">View Testnet stellar.toml</a>
+        </section>
+
+        <section class="card" style="margin-top: 2rem;">
+            <h2>Node Validator Setup</h2>
+            <p>To connect your local Pi Node to the FODUBU test network and begin validating smart contracts:</p>
             <ul>
-                <li><strong>FODUBU Mall:</strong> Global cross-border e-commerce &amp; digital trade.</li>
-                <li><strong>SETRA Eco:</strong> Sustainable solutions &amp; environmental credit tracking.</li>
-                <li><strong>Traco Agri:</strong> Agri-tech supply chain &amp; commodity settlement.</li>
+                <li>Ensure your local Docker container is synchronized on port <code>31401</code>.</li>
+                <li>Reference our <code>pi.toml</code> for the active Testnet Validator Public Keys.</li>
+                <li>Monitor Soroban ledger executions via the local Horizon API.</li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 FODUBU Ecosystem. All rights reserved.</p>
-        <p>Contact: <a href="mailto:support@fodubu.com">support@fodubu.com</a> | Domain: <code>www.fodubu.com</code></p>
+        <p>&copy; 2026 FODUBU Ecosystem Developer Tools.</p>
+        <p>Domain: <code>fodubu.github.io/trade-page</code> | Source: GitHub Pages</p>
     </footer>
 </body>
 </html>
