@@ -17,8 +17,6 @@ To ensure strict compliance with PiRC-101/207 and Stellar SEP-0001 standards, ou
 This repository uses GitHub Pages to serve static documentation and TOML configurations. The `.nojekyll` file at the root ensures that the hidden `.well-known` directory is strictly processed and exposed to network indexers.
 
 ```text
-/
-├── CNAME                  # Routes traffic to trade.fodubu.com
 ├── .nojekyll              # Bypasses default GitHub Pages Jekyll processing
 ├── index.html             # Validator dashboard and testnet documentation UI
 └── .well-known/
