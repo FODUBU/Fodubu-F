@@ -36,33 +36,3 @@ Allocation:
 10% Circulating (TGE)
 
 60% Pioneer Rewards
-[  * Hosted via this `trade-page` repository.
-  * Dedicated to developer testing, node validator instructions, and Testnet `.well-known` configurations.
-
-## ⚙️ Repository Structure
-
-This repository uses GitHub Pages to serve static documentation and TOML configurations. The `.nojekyll` file at the root ensures that the hidden `.well-known` directory is strictly processed and exposed to network indexers.
-
-```text
-/
-├── CNAME                  # Routes traffic to trade.fodubu.com
-├── .nojekyll              # Bypasses default GitHub Pages Jekyll processing
-├── index.html             # Validator dashboard and testnet documentation UI
-└── .well-known/
-    ├── pi.toml            # Testnet PiRC compliance metadata
-    └── stellar.toml       # Testnet Stellar SEP-0001 compliance metadata
-
-🔐 Token Utility (Mainnet & Testnet Parity)
-The "F" token acts strictly as an ecosystem reward and incentive layer. It is not distributed via public crowdsale.
-
-Display Decimals: 7
-
-Max Supply: 1,000,000,000 (Fixed)
-
-Allocation:
-
-10% Circulating (TGE)
-
-60% Pioneer Rewards
-
-30% Ecosystem LP
