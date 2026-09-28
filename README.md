@@ -7,7 +7,6 @@ Welcome to the official documentation and validator node repository for the FODU
 To ensure strict compliance with PiRC-101/207 and Stellar SEP-0001 standards, our metadata and network configurations are isolated:
 
 * **Mainnet Portal:** [www.fodubu.com](https://www.fodubu.com)
-  * Hosts the production marketplace frontend.
   * Contains the live Mainnet `.well-known/pi.toml` metadata.
 * **Testnet & Validator Portal:** [fodubu.github.io](https://fodubu.github.io)
   * Hosted via this `trade-page` repository.
