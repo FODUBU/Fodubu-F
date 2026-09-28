@@ -36,3 +36,4 @@ Allocation:
 10% Circulating (TGE)
 
 60% Pioneer Rewards
+30% LP
