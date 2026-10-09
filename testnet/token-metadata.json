@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "2.0.0",
+  "environment": "testnet",
+  "project": "FODUBU Ecosystem",
+  "token": {
+    "name": "FODUBU Ecosystem Test Token",
+    "symbol": "FTEST",
+    "intendedTotalSupply": "100000",
+    "decimals": 7,
+    "description": "Testing token for FODUBU Global Trade, SETRA Eco-Solutions, TRACO Agriculture, API integrations, and smart-contract testing.",
+    "website": "https://fodubu.github.io/trade-page/",
+    "image": "https://raw.githubusercontent.com/FODUBU/FODUBU-PRODUCT-IMAGES/main/fecstm_token_00000000002071f5ac7ad92b6c54ec82.png",
+    "officialEmail": "support@fodubu.com",
+    "supportEmail": "support@fodubu.com"
+  },
+  "network": {
+    "name": "Pi Testnet",
+    "environment": "testing",
+    "networkPassphrase": "testnet"
+  },
+  "issuance": {
+    "status": "to_be_created_or_verified",
+    "supplyIsOnChainVerified": false,
+    "monetaryValue": 0,
+    "note": "Testnet tokens are for testing only and have no guaranteed monetary value. Actual supply depends on the selected token issuance mechanism."
+  }
+}
