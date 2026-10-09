@@ -9,7 +9,7 @@ FEDERATION_SERVER = "https://api.testnet.minepi.com"
 [DOCUMENTATION]
 ORG_NAME = "FODUBU Ecosystem Token"
 ORG_DESCRIPTION = "Triple-marketplace ecosystem reward allocation for Global Trade, Eco-Solutions, and Agriculture."
-ORG_URL = "https://fodubu.github.io/trade-page/"
+ORG_URL = "https://fodubu.github.io/Fodubu-F/"
 ORG_OFFICIAL_EMAIL = "support@fodubu.com"
 ORG_SUPPORT_EMAIL = "support@fodubu.com"
 
