@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "2.0.0",
+  "environment": "testnet",
+  "token": {
+    "name": "FODUBU Ecosystem Test Token",
+    "symbol": "FTEST",
+    "intendedTotalSupply": "100000000"
+  },
+  "allocation": {
+    "totalSupply": "100000000",
+    "unit": "FTEST",
+    "allocations": [
+      {
+        "id": "DEVELOPER_TESTING",
+        "name": "Developer and API Testing",
+        "percentage": 20,
+        "amount": "20000000",
+        "purpose": "API integrations, wallets, and application logic."
+      },
+      {
+        "id": "SETRA_TESTING",
+        "name": "SETRA Eco-Solutions",
+        "percentage": 15,
+        "amount": "15000000",
+        "purpose": "Testing SETRA features and transactions."
+      },
+      {
+        "id": "TRACO_TESTING",
+        "name": "TRACO Agriculture",
+        "percentage": 15,
+        "amount": "15000000",
+        "purpose": "Testing agricultural marketplace features and transactions."
+      },
+      {
+        "id": "GLOBAL_TRADE_TESTING",
+        "name": "FODUBU Global Trade",
+        "percentage": 20,
+        "amount": "20000000",
+        "purpose": "Testing marketplace orders, payments, and token integrations."
+      },
+      {
+        "id": "COMMUNITY_TESTING",
+        "name": "Community Testing",
+        "percentage": 15,
+        "amount": "15000000",
+        "purpose": "Testing onboarding and community reward flows."
+      },
+      {
+        "id": "SMART_CONTRACT_TESTING",
+        "name": "Smart Contract Testing",
+        "percentage": 10,
+        "amount": "10000000",
+        "purpose": "Testing supported smart-contract functionality."
+      },
+      {
+        "id": "TESTING_RESERVE",
+        "name": "Testing Reserve",
+        "percentage": 5,
+        "amount": "5000000",
+        "purpose": "Reserve for additional testing and integration needs."
+      }
+    ]
+  },
+  "verification": {
+    "allocationTotalsValidated": true,
+    "onChainDistributionVerified": false,
+    "monetaryValue": 0,
+    "note": "These are planned test allocations, not proof of minted tokens or on-chain balances."
+  }
+}
