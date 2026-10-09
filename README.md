@@ -26,7 +26,7 @@ Mainnet documentation must be labelled as planned until the corresponding token 
 
 Testnet — FODUBU Developer and Validator Documentation
 
-GitHub Pages: https://fodubu.github.io/trade-page/
+GitHub Pages: https://fodubu.github.io/Fodubu-F/
 
 The testnet environment is intended for technical validation, development, integration testing, and documentation.
 
@@ -267,5 +267,5 @@ Users and integrators should verify the actual network, issuer or contract ident
 
 Maintained by: FODUBU Ecosystem
 Official website: https://trade.fodubu.com
-Testnet documentation: https://fodubu.github.io/trade-page/
+Testnet documentation: https://fodubu.github.io/Fodubu-F/
 Support: support@fodubu.com
