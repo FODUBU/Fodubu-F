@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "2.0.0",
+  "environment": "mainnet",
+  "token": {
+    "name": "FODUBU Ecosystem Token",
+    "symbol": "F",
+    "intendedTotalSupply": "1000000000"
+  },
+  "allocation": {
+    "totalSupply": "1000000000",
+    "unit": "F",
+    "allocations": [
+      {
+        "id": "TGE_CIRCULATING",
+        "name": "Circulating Supply at TGE",
+        "percentage": 10,
+        "amount": "100000000",
+        "purpose": "Initial circulating allocation, subject to actual issuance and launch rules."
+      },
+      {
+        "id": "PIONEER_REWARDS",
+        "name": "Pioneer Rewards",
+        "percentage": 60,
+        "amount": "600000000",
+        "purpose": "Rewards for eligible ecosystem participants under published program rules."
+      },
+      {
+        "id": "ECOSYSTEM_LIQUIDITY",
+        "name": "Ecosystem Liquidity",
+        "percentage": 30,
+        "amount": "300000000",
+        "purpose": "Allocation reserved for ecosystem liquidity, subject to governance and deployment decisions."
+      }
+    ]
+  },
+  "verification": {
+    "allocationTotalsValidated": true,
+    "onChainDistributionVerified": false,
+    "note": "This file describes planned allocations; it does not prove token issuance or balances."
+  }
+}
