@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "2.0.0",
+  "environment": "mainnet",
+  "project": "FODUBU Ecosystem",
+  "token": {
+    "name": "FODUBU Ecosystem Token",
+    "symbol": "F",
+    "intendedTotalSupply": "1000000000",
+    "decimals": 7,
+    "description": "Utility and incentive token planned for the FODUBU ecosystem, including Global Trade, SETRA Eco-Solutions, and TRACO Agriculture.",
+    "website": "https://trade.fodubu.com",
+    "image": "https://raw.githubusercontent.com/FODUBU/FODUBU-PRODUCT-IMAGES/main/fecstm_token_00000000002071f5ac7ad92b6c54ec82.png",
+    "officialEmail": "support@fodubu.com",
+    "supportEmail": "support@fodubu.com"
+  },
+  "network": {
+    "name": "Pi Mainnet",
+    "environment": "production"
+  },
+  "issuance": {
+    "status": "to_be_verified",
+    "supplyIsOnChainVerified": false,
+    "note": "The intended supply must be confirmed against actual token issuance and on-chain records."
+  }
+}
