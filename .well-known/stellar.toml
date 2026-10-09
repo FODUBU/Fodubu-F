@@ -26,10 +26,10 @@ home_domain = "fodubu.github.io"
 description = "Ecosystem reward token distribution account"
 
 [[CURRENCIES]]
-code = "F"
+code = "FTEST"
 issuer = "GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"
 display_decimals = 7
-name = "FODUBU Ecosystem Token"
-desc = "Utility and incentive token distributed strictly as rewards across FODUBU Mall, SETRA Eco, and Traco Agri. Tokenomics Breakdown: 10% (100M) Circulating TGE | 60% (600M) Pioneer Rewards | 30% (300M) Ecosystem LP."
+name = "FODUBU Test Token"
+desc = "FODUBU ecosystem test token for Global Trade, SETRA, and TRACO."
+conditions = "TESTNET ONLY. Intended total allocation: 100,000,000 FTEST. No guaranteed monetary value. Actual supply depends on the token issuance mechanism."
 image = "https://raw.githubusercontent.com/FODUBU/FODUBU-PRODUCT-IMAGES/main/fecstm_token_00000000002071f5ac7ad92b6c54ec82.png"
-conditions = "Fixed supply of 1 billion tokens. Allocated exclusively for ecosystem rewards and user incentives."
