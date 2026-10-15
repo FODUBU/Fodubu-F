@@ -1,6 +1,7 @@
-FODUBU Ecosystem — Stellar Testnet Information
-FTEST is intended for technical testing only.
-This file does not create tokens or enforce a supply cap.
+#FODUBU Ecosystem — Stellar Testnet Information
+#FTEST is intended for technical testing only.
+#This file does not create tokens or enforce a supply cap.
+
 VERSION = "2.0.0"
 NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
 ACCOUNTS = [
