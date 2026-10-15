@@ -1,19 +1,18 @@
-FODUBU Ecosystem — Testnet Network and Token Metadata
-
-Environment: TESTNET
+FODUBU Ecosystem — Stellar Testnet Information
 
 FTEST is intended for technical testing only.
 
-This file does not itself create tokens or verify validator status.
+This file does not create tokens or enforce a supply cap.
 
 VERSION = "2.0.0"
-NETWORK_PASSPHRASE = "testnet"
-ACCOUNTS = ["GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"]
-FEDERATION_SERVER = "https://api.testnet.minepi.com"
+NETWORK_PASSPHRASE = "Test SDF Network ; September 2015"
+ACCOUNTS = [
+"GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"
+]
 
 [DOCUMENTATION]
 ORG_NAME = "FODUBU Ecosystem"
-ORG_DESCRIPTION = "Community-driven ecosystem documentation for trade, environmental sustainability, agriculture, and technical token testing."
+ORG_DESCRIPTION = "Community-driven ecosystem for trade, environmental sustainability, agriculture, and technical token testing."
 ORG_URL = "https://fodubu.github.io/Fodubu-F/"
 ORG_OFFICIAL_EMAIL = "support@fodubu.com"
 ORG_SUPPORT_EMAIL = "support@fodubu.com"
@@ -22,19 +21,13 @@ ORG_SUPPORT_EMAIL = "support@fodubu.com"
 name = "Fod-Team"
 email = "support@fodubu.com"
 
-[QUORUM_SET]
-VALIDATORS = ["GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"]
-
-[[ACCOUNTS]]
-public_key = "GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"
-home_domain = "fodubu.github.io"
-description = "FODUBU testnet account for ecosystem token testing and technical validation."
-
 [[CURRENCIES]]
 code = "FTEST"
 issuer = "GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"
 display_decimals = 7
-name = "FODUBU Ecosystem Test Token"
-desc = "Testnet token intended for technical validation, including token transfers, API integration, and system testing. Not intended for production purchases or production rewards."
-conditions = "TESTNET ONLY. Intended allocation: 100,000 FTEST. This metadata does not prove actual issuance, total on-chain supply, or distribution. No monetary value or redemption is guaranteed."
+name = "FODUBU Test Token"
+desc = "Testnet token intended for technical validation, transfers, API integration, and system testing."
+conditions = "TESTNET ONLY. Intended allocation: 100,000 FTEST. No monetary value or redemption is guaranteed."
 image = "https://raw.githubusercontent.com/FODUBU/FODUBU-PRODUCT-IMAGES/main/fecstm_token_00000000002071f5ac7ad92b6c54ec82.png"
+status = "test"
+max_number = 100000
