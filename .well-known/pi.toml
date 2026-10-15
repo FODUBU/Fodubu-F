@@ -1,12 +1,19 @@
-# FODUBU Ecosystem Official Metadata (PiRC-101 / PiRC-207 Compliance)
+FODUBU Ecosystem — Testnet Network and Token Metadata
+
+Environment: TESTNET
+
+FTEST is intended for technical testing only.
+
+This file does not itself create tokens or verify validator status.
+
 VERSION = "2.0.0"
 NETWORK_PASSPHRASE = "testnet"
 ACCOUNTS = ["GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"]
 FEDERATION_SERVER = "https://api.testnet.minepi.com"
 
 [DOCUMENTATION]
-ORG_NAME = "FODUBU Ecosystem Token"
-ORG_DESCRIPTION = "Triple-marketplace ecosystem reward allocation for Global Trade, Eco-Solutions, and Agriculture."
+ORG_NAME = "FODUBU Ecosystem"
+ORG_DESCRIPTION = "Community-driven ecosystem documentation for trade, environmental sustainability, agriculture, and technical token testing."
 ORG_URL = "https://fodubu.github.io/Fodubu-F/"
 ORG_OFFICIAL_EMAIL = "support@fodubu.com"
 ORG_SUPPORT_EMAIL = "support@fodubu.com"
@@ -21,13 +28,13 @@ VALIDATORS = ["GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"]
 [[ACCOUNTS]]
 public_key = "GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"
 home_domain = "fodubu.github.io"
-description = "Ecosystem reward token distribution account"
+description = "FODUBU testnet account for ecosystem token testing and technical validation."
 
 [[CURRENCIES]]
 code = "FTEST"
 issuer = "GBHOWFFJ3MSEOZCU6WAGHK6CLSIB4KZDO7KSJROJ54IVATTY62MNJOSC"
 display_decimals = 7
-name = "FODUBU Test Token"
-desc = "FODUBU ecosystem test token for Global Trade, SETRA, and TRACO."
-conditions = "TESTNET ONLY. Intended total allocation: 100,000 FTEST. No guaranteed monetary value. Actual supply depends on the token issuance mechanism."
+name = "FODUBU Ecosystem Test Token"
+desc = "Testnet token intended for technical validation, including token transfers, API integration, and system testing. Not intended for production purchases or production rewards."
+conditions = "TESTNET ONLY. Intended allocation: 100,000 FTEST. This metadata does not prove actual issuance, total on-chain supply, or distribution. No monetary value or redemption is guaranteed."
 image = "https://raw.githubusercontent.com/FODUBU/FODUBU-PRODUCT-IMAGES/main/fecstm_token_00000000002071f5ac7ad92b6c54ec82.png"
